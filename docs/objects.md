@@ -60,7 +60,7 @@ The scene mounted to a location can also be given an initial rotation as a secon
 ```js
 // Create a location two meters out,
 // which is rotated 90 degrees around the y-axis
-new Location([0, 0, -2], [0, Math.PI / 2, 0]);
+new Location([0, 0, -2], [0, Math.PI / 2, 0, 1]);
 ```
 
 ### Moving Locations
